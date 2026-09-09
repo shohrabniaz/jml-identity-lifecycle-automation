@@ -1,0 +1,19 @@
+{
+  "evaluation_date": "2026-09-01",
+  "baseline_manual_minutes": {
+    "joiner": 45,
+    "mover": 30,
+    "leaver": 60
+  },
+  "automated_minutes": {
+    "joiner_min": 1,
+    "mover_min": 1,
+    "leaver_min": 2,
+    "full_jml_suite_min": 3
+  },
+  "jml_events_with_evidence": 8,
+  "orphan_privileged_detected": 1,
+  "screenshots_required": 6,
+  "screenshots_folder": "05_Evaluation/screenshots",
+  "step1_status": "C5 and C8 complete (7 PNG + 6 TXT in screenshots/)"
+}

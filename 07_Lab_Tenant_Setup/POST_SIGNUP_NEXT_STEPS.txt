@@ -1,0 +1,71 @@
+POST-AZURE SIGNUP — PROJECT 3 NEXT STEPS
+Student: Md Shohrab Hossen Niaz | ID 1211589
+==========================================
+
+YOU ARE HERE: Azure signup complete. Now wire the lab to Project 3 scripts.
+
+STEP 1 — VERIFY ENTRA (2 minutes)
+---------------------------------
+1. Open https://portal.azure.com
+2. Top search: Microsoft Entra ID
+3. Overview page — copy:
+   - Tenant name
+   - Primary domain (xxxx.onmicrosoft.com)
+   - Tenant ID (GUID)
+
+Optional: Entra > Properties > rename display name to: Niaz-SCI700-JML-Lab
+
+STEP 2 — ENABLE MFA ON ADMIN (recommended)
+------------------------------------------
+Entra ID > Users > your admin user > Authentication methods > require MFA
+
+STEP 3 — INSTALL POWERSHELL TOOLS (once)
+----------------------------------------
+Open PowerShell 7 as normal user:
+
+  Install-Module Microsoft.Graph -Scope CurrentUser -Force
+  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+STEP 4 — CONNECT TO YOUR LAB TENANT
+-----------------------------------
+  cd "D:\Downloads\Coursework\SCI701_Research_Pathway\Project3_JML_Identity_Lifecycle\03_Prototype_Lab"
+
+  Connect-MgGraph -Scopes "User.ReadWrite.All","Group.ReadWrite.All","Directory.ReadWrite.All","AuditLog.Read.All"
+
+Sign in with your NEW Azure/Entra admin account (not Gmail personal unless that IS the admin).
+
+STEP 5 — GET TENANT ID + DOMAIN
+-------------------------------
+  . .\Get-LabTenantInfo.ps1
+
+Copy TenantId and Domain into 00_Config.ps1 (replace PASTE-TENANT-ID and yourlab.onmicrosoft.com)
+
+Also fill: 07_Lab_Tenant_Setup\Lab_Credentials_PRIVATE.txt (keep private)
+
+STEP 6 — RUN LAB SETUP SCRIPTS (in order)
+-----------------------------------------
+  . .\00_Config.ps1
+  .\01_Create_Lab_Groups.ps1
+  .\02_Create_Synthetic_Users.ps1
+  .\03_Invoke_Joiner.ps1 -UserPrincipalName "joiner.test01@YOURDOMAIN.onmicrosoft.com" -RolePack ServiceDesk
+  .\05_Invoke_Leaver.ps1 -UserPrincipalName "leaver.test01@YOURDOMAIN.onmicrosoft.com"
+  .\06_Orphan_Privileged_Report.ps1
+
+Replace YOURDOMAIN with your actual onmicrosoft.com prefix.
+
+STEP 7 — DO NOT CREATE PAID AZURE RESOURCES
+-------------------------------------------
+No VMs, no databases, no Pay-as-you-go upgrade.
+Project 3 only needs Entra users + groups + Graph scripts.
+
+STEP 8 — REPLY HERE WITH (no passwords)
+---------------------------------------
+- Primary domain: xxx.onmicrosoft.com
+- Entra opens: yes/no
+- Scripts ran: yes/no (and any error message)
+
+CHARGES SAFETY
+--------------
+- Azure Free: card is verification; avoid Pay-as-you-go upgrade
+- Portal > Cost Management > budgets/alerts if you want extra safety
+- Delete/unused resources if you accidentally create any

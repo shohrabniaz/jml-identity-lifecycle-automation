@@ -1,0 +1,25 @@
+SCREENSHOT CAPTURE CHECKLIST (C8) - STATUS
+Student: Md Shohrab Hossen Niaz | 1211589
+Updated: 2026-09-01
+
+AUTO-GENERATED (from live Entra export + lab JSON):
+[x] 00_Evaluation_Metrics_Summary.png
+[x] 01_Entra_Users_List.png (+ .txt source)
+[x] 02_Entra_Groups_List.png (+ .txt source)
+[x] 03_Joiner_Group_Memberships.png (+ .txt source)
+[x] 04_Leaver_Disabled_Account.png (+ .txt source)
+[x] 05_Privileged_Group_Members.png (+ .txt source)
+[x] 06_PowerShell_Orphan_Report.png (+ .txt source)
+
+OPTIONAL (higher quality for dissertation - capture from portal):
+[ ] 01-06 portal UI screenshots (replace PNGs if you want real Entra UI images)
+    Portal: https://entra.microsoft.com
+    Tenant: niazkhanghostgmail.onmicrosoft.com
+
+TO RE-EXPORT:
+  Double-click: 03_Prototype_Lab\EXPORT_EVIDENCE_SCREENSHOTS.bat
+
+NOTES:
+- Current PNGs are valid lab evidence (exported via Graph API on 2026-09-01)
+- Joiner groups confirmed: SG-CMIT-AllStaff, SG-CMIT-ServiceDesk
+- Orphan: leaver.test02 DISABLED_BUT_STILL_IN_PRIV_GROUP

@@ -1,0 +1,8 @@
+﻿Evidence written: .\evidence\20260901_190049_OrphanPrivilegedReport.json
+
+DisplayName   UPN                                              AccountEnabled Department JobTitle         Risk         
+-----------   ---                                              -------------- ---------- --------         ----         
+Leaver Test02 leaver.test02@niazkhanghostgmail.onmicrosoft.com          False Engineers  Privileged Admin DISABLED_B...
+
+
+

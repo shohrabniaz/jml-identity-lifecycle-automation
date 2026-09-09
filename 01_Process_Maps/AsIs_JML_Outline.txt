@@ -1,0 +1,24 @@
+AS-IS JML OUTLINE (draft — fictional MSP scenario)
+=====================================================
+
+JOINER (new MSP staff / contractor)
+1. Offer accepted -> HR or PSA record created manually
+2. Ticket logged for account creation (often delayed)
+3. IAM admin creates Entra account + groups ad hoc
+4. Privileged/client access assigned by request (inconsistent approvals)
+5. Laptop / VPN / RMM agent issued
+Failure modes: late day-1 access; over-provisioning; missing MFA; no standard role packs
+
+MOVER (role / team / client-portfolio change)
+1. Manager notifies informally (chat/email)
+2. Partial group changes; old client access often left in place
+Failure modes: privilege creep; stale client tenant admin roles
+
+LEAVER (resignation / termination)
+1. HR notifies IT late or after last day
+2. Mailbox/license disabled eventually
+3. Client-tenant privileged roles removed manually / inconsistently
+4. Shared passwords / break-glass not always rotated
+Failure modes: orphaned accounts; standing privileged access; weak audit trail
+
+NEXT: convert this into a swimlane diagram (HR/PSA | Service Desk | IAM | Client Tenant Admin)

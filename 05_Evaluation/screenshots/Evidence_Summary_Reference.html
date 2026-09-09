@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Lab Evidence Summary</title>
+<style>body{font-family:Segoe UI,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem}
+table{border-collapse:collapse;width:100%} th,td{border:1px solid #ccc;padding:8px;text-align:left}
+th{background:#1f4e79;color:#fff} .risk{color:#c00;font-weight:bold}</style></head>
+<body>
+<h1>Project 3 Lab Evidence Summary</h1>
+<p>Tenant: niazkhanghostgmail.onmicrosoft.com | Evaluated: 2026-09-01</p>
+<h2>Metrics</h2>
+<table>
+<tr><th>Metric</th><th>Manual</th><th>Automated</th></tr>
+<tr><td>Joiner (min)</td><td>45</td><td>1</td></tr>
+<tr><td>Mover (min)</td><td>30</td><td>1</td></tr>
+<tr><td>Leaver (min)</td><td>60</td><td>2</td></tr>
+</table>
+<h2>Orphan privileged finding</h2>
+<pre>{
+  "DisplayName": "Leaver Test02",
+  "UPN": "leaver.test02@niazkhanghostgmail.onmicrosoft.com",
+  "AccountEnabled": false,
+  "Department": "Engineers",
+  "JobTitle": "Privileged Admin",
+  "Risk": "DISABLED_BUT_STILL_IN_PRIV_GROUP"
+}</pre>
+<h2>Evidence files</h2>
+<ul>
+<li>20260901_012525_CreateGroups.json</li><li>20260901_012528_CreateUsers.json</li><li>20260901_012529_Joiner_joiner.test01.json</li><li>20260901_012530_Joiner_joiner.test02.json</li><li>20260901_012531_Mover_mover.test01.json</li><li>20260901_012534_FailedLeaver_OrphanSim.json</li><li>20260901_012534_Leaver_leaver.test01.json</li><li>20260901_012535_OrphanPrivilegedReport.json</li>
+</ul>
+<p><em>Replace portal screenshots per CAPTURE_CHECKLIST.txt for final dissertation.</em></p>
+</body></html>

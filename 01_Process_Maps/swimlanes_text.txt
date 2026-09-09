@@ -1,0 +1,6 @@
+SWIMLANE SUMMARY
+================
+| Step | HR/PSA | Service Desk | IAM Automation | Privileged Approver | Audit |
+| Joiner request | Create approved record | Validate ticket | Create/enable + role pack | Approve privileged packs | Log |
+| Mover request | Update role fields | Confirm | Diff add/remove packs | Approve priv changes | Log |
+| Leaver trigger | Mark terminated | Priority ticket | Disable + strip access | Confirm priv removal | Evidence pack |

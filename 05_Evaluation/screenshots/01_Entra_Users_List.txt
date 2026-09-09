@@ -1,0 +1,11 @@
+﻿
+DisplayName   UserPrincipalName                                AccountEnabled JobTitle            
+-----------   -----------------                                -------------- --------            
+Joiner Test01 joiner.test01@niazkhanghostgmail.onmicrosoft.com           True Service Desk Analyst
+Joiner Test02 joiner.test02@niazkhanghostgmail.onmicrosoft.com           True Cloud Engineer      
+Leaver Test01 leaver.test01@niazkhanghostgmail.onmicrosoft.com          False Senior Engineer     
+Leaver Test02 leaver.test02@niazkhanghostgmail.onmicrosoft.com          False Privileged Admin    
+Mover Test01  mover.test01@niazkhanghostgmail.onmicrosoft.com            True Service Desk Analyst
+
+
+

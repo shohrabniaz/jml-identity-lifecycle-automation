@@ -1,0 +1,3 @@
+﻿Group: SG-CMIT-Privileged-Admins
+Members:
+  Leaver Test02 | leaver.test02@niazkhanghostgmail.onmicrosoft.com | Enabled=False

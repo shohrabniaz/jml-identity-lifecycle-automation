@@ -1,0 +1,34 @@
+PROJECT 3 COMPLETION CHECKLIST — 2026-09-01
+Student: Md Shohrab Hossen Niaz (1211589)
+Lab: niazkhanghostgmail.onmicrosoft.com | Tenant: a76a68a8-6243-4b0e-b11c-98e815e91820
+Cost model: FREE (Entra ID Free only)
+
+[x] Azure/Entra lab tenant created
+[x] 00_Config.ps1 configured
+[x] Lab scripts created (01-06 + Run-AllLab)
+[x] Run Run-AllLab.ps1 (completed 2026-09-01 01:25 - 8 evidence files)
+[x] Process maps (as-is, to-be, risk register)
+[x] Literature pack
+[x] Governance & audit model
+[x] Evaluation workbook
+[x] Dissertation outline + Ch6 draft
+[x] Project scope document
+
+FREE TIER SAFETY:
+- Do NOT upgrade to Pay-as-you-go
+- Do NOT create VMs, databases, or paid Azure services
+- Only Entra users + security groups (free)
+STEP 1 - EVALUATION EVIDENCE (Phase C5 + C8)
+[x] C5 Manual baseline documented in Evaluation_Workbook.xlsx (Baseline_Methodology sheet)
+[x] C8 Evaluation screenshots exported (7 PNG in 05_Evaluation/screenshots/)
+STEP 2 - ANALYSIS (Phase B)
+[x] B1 Literature pack — 3 academic sources + annotated bibliography
+[x] B2 As-is process + risk findings reviewed (v1.0)
+[x] B3 To-be target design frozen (v1.0 FINAL)
+STEP 3 - DISSERTATION WRITE-UP (Phase D)
+[x] D1 Introduction + Methodology drafted
+[x] D2 Current-state + Design drafted
+[x] D3 Implementation + Evaluation drafted
+[x] D4 Discussion answering RQ1-RQ3 drafted
+[x] D5 References + full dissertation draft
+[ ] Final polish / supervisor feedback / Turnitin submission

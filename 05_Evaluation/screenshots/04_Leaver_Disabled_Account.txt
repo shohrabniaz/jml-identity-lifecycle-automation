@@ -1,0 +1,4 @@
+﻿User: leaver.test01@niazkhanghostgmail.onmicrosoft.com
+DisplayName: Leaver Test01
+AccountEnabled: False
+Expected: False (automated leaver)

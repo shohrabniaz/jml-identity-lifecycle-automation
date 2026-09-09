@@ -1,0 +1,5 @@
+﻿User: joiner.test01@niazkhanghostgmail.onmicrosoft.com
+DisplayName: Joiner Test01
+Group memberships:
+  - SG-CMIT-AllStaff
+  - SG-CMIT-ServiceDesk

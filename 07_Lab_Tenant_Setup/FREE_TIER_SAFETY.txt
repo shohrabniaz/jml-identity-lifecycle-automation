@@ -1,0 +1,41 @@
+FREE TIER SAFETY — PROJECT 3 LAB
+================================
+Student: Md Shohrab Hossen Niaz | Tenant: niazkhanghostgmail.onmicrosoft.com
+
+WHAT IS FREE (what we use)
+--------------------------
+- Azure account (free tier signup — card is identity verification only)
+- Microsoft Entra ID Free (included with Azure)
+- Security groups (unlimited, free)
+- User objects in Entra (free tier limits are generous for lab)
+- Microsoft Graph API via PowerShell (free)
+- Audit logs in Entra portal (basic, free)
+
+WHAT WE DO NOT USE (would cost money)
+-------------------------------------
+- Microsoft 365 Business / E3 / E5 licenses
+- Exchange Online mailboxes
+- Azure VMs, storage accounts, databases
+- Pay-as-you-go subscription upgrade
+- Azure AD Premium P1/P2 (not needed for this project)
+
+HOW TO STAY AT $0
+-----------------
+1. Portal > Subscriptions — do NOT upgrade to Pay-as-you-go
+2. Do NOT create any Azure resource (VM, SQL, etc.)
+3. Only use: portal.azure.com > Microsoft Entra ID
+4. Optional: Cost Management > create $0 budget alert
+
+LAB SCOPE (sufficient for dissertation)
+---------------------------------------
+- 8 security groups (CMIT role packs)
+- 5 synthetic test users
+- JML automation scripts (Joiner/Mover/Leaver)
+- JSON evidence files per event
+- Orphan privileged account report
+
+DELETE LAB WHEN FINISHED (optional)
+-----------------------------------
+Entra ID > Users — delete synthetic users
+Entra ID > Groups — delete SG-CMIT-* groups
+Cancel Azure subscription if no longer needed (Settings > Subscriptions)

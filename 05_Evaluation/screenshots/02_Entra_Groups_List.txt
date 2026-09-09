@@ -1,0 +1,14 @@
+﻿
+DisplayName               SecurityEnabled
+-----------               ---------------
+SG-CMIT-AllStaff                     True
+SG-CMIT-Engineers                    True
+SG-CMIT-Privileged-Admins            True
+SG-CMIT-ServiceDesk                  True
+SG-Role-Joiners-Pending              True
+SG-Role-Leavers-Pending              True
+SG-ClientA-Support                   True
+SG-ClientB-Support                   True
+
+
+

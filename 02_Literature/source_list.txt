@@ -1,0 +1,19 @@
+ACADEMIC (UniSC library)
+
+1. Cameron, A., & Grewe, O. (2022). An overview of the digital identity lifecycle (v2). IDPro Body of Knowledge, 1(7). https://doi.org/10.55621/idpro.31
+   Search: UniSC Library: search 'Cameron Grewe digital identity lifecycle' or DOI 10.55621/idpro.31
+
+2. Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information systems research. MIS Quarterly, 28(1), 75-105.
+   Search: UniSC Library: MIS Quarterly Hevner design science 2004
+
+3. Tuononen, H. (2023). Privileged access management model for a managed service provider (Master's thesis). JAMK University of Applied Sciences. http://theseus.fi/handle/10024/800216
+   Search: UniSC Library: search 'Tuononen privileged access management MSP' or Theseus 10024/800216
+
+
+STANDARDS & INDUSTRY
+
+1. ASD Essential Eight — Restrict administrative privileges
+2. ACSC — MSP security guidance
+3. ISO/IEC 27001:2022 A.5.15–A.5.18
+4. Microsoft Entra Lifecycle Workflows
+5. Microsoft Graph API

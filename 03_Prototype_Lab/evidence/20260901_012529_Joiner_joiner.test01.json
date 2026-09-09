@@ -1,0 +1,12 @@
+﻿{
+    "RequestId":  "JOIN-20260901012528",
+    "Action":  "Joiner",
+    "User":  "joiner.test01@niazkhanghostgmail.onmicrosoft.com",
+    "RolePack":  "ServiceDesk",
+    "Groups":  [
+                   "SG-CMIT-AllStaff",
+                   "SG-CMIT-ServiceDesk"
+               ],
+    "TimestampUtc":  "2026-08-31T15:55:29.2548551Z",
+    "Actor":  null
+}

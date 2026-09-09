@@ -1,0 +1,29 @@
+# Secrets & private local config
+**/Lab_Credentials_PRIVATE.txt
+**/07_Lab_Tenant_Setup/Lab_Credentials_PRIVATE.txt
+**/*PRIVATE*
+.env
+.env.*
+*.pem
+*.pfx
+
+# Huge / noisy evidence (keep smaller JML JSON)
+**/evidence/*CreateGroups.json
+**/evidence/*_CreateGroups.json
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local scratch
+_agent_scratch/
+*.log
