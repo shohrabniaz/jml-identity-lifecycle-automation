@@ -1,0 +1,8 @@
+﻿{
+    "DisplayName":  "Leaver Test02",
+    "UPN":  "leaver.test02@niazkhanghostgmail.onmicrosoft.com",
+    "AccountEnabled":  false,
+    "Department":  "Engineers",
+    "JobTitle":  "Privileged Admin",
+    "Risk":  "DISABLED_BUT_STILL_IN_PRIV_GROUP"
+}
