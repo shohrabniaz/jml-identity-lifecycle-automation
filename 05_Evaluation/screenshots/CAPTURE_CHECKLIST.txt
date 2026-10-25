@@ -1,5 +1,5 @@
 SCREENSHOT CAPTURE CHECKLIST (C8) - STATUS
-Student: Md Shohrab Hossen Niaz | 1211589
+Student: Md Shohrab Hossen Niaz
 Updated: 2026-09-01
 
 AUTO-GENERATED (from live Entra export + lab JSON):

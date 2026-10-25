@@ -91,7 +91,7 @@ def build_workbook():
     header_font = Font(bold=True, color="FFFFFF")
     rows = [
         ("Section", "Detail"),
-        ("Student", "Md Shohrab Hossen Niaz | 1211589"),
+        ("Student", "Md Shohrab Hossen Niaz | "),
         ("Lab tenant", "niazkhanghostgmail.onmicrosoft.com"),
         ("Evaluation date", "2026-09-01"),
         ("", ""),
@@ -136,7 +136,7 @@ def improvement(manual: int, auto: int) -> str:
 def write_capture_checklist():
     SCREENSHOTS.mkdir(parents=True, exist_ok=True)
     checklist = """SCREENSHOT CAPTURE CHECKLIST (C8)
-Student: Md Shohrab Hossen Niaz | 1211589
+Student: Md Shohrab Hossen Niaz
 Portal: https://entra.microsoft.com
 Tenant: niazkhanghostgmail.onmicrosoft.com
 

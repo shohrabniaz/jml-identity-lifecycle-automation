@@ -1,5 +1,5 @@
 POST-AZURE SIGNUP — PROJECT 3 NEXT STEPS
-Student: Md Shohrab Hossen Niaz | ID 1211589
+Student: Md Shohrab Hossen Niaz
 ==========================================
 
 YOU ARE HERE: Azure signup complete. Now wire the lab to Project 3 scripts.
@@ -13,7 +13,7 @@ STEP 1 — VERIFY ENTRA (2 minutes)
    - Primary domain (xxxx.onmicrosoft.com)
    - Tenant ID (GUID)
 
-Optional: Entra > Properties > rename display name to: Niaz-SCI700-JML-Lab
+Optional: Entra > Properties > rename display name to: JML-Lab
 
 STEP 2 — ENABLE MFA ON ADMIN (recommended)
 ------------------------------------------

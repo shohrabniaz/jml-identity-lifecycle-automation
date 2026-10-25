@@ -13,7 +13,7 @@ from openpyxl.styles import Alignment, Font, PatternFill
 BASE = Path(r"D:\Downloads\Coursework\SCI701_Research_Pathway\Project3_JML_Identity_Lifecycle")
 TODAY = date.today().isoformat()
 STUDENT = "Md Shohrab Hossen Niaz"
-SID = "1211589"
+SID = ""
 DOMAIN = "niazkhanghostgmail.onmicrosoft.com"
 TENANT = "a76a68a8-6243-4b0e-b11c-98e815e91820"
 
@@ -36,7 +36,7 @@ def save_doc(doc, path: Path):
 
 def build_kickoff():
     doc = Document()
-    doc.add_heading("SCI700 Project 3 — Kickoff Pack", 0)
+    doc.add_heading("Project 3 — Kickoff Pack", 0)
     para(doc, f"{STUDENT} | Student ID {SID} | {TODAY}")
     heading(doc, "Title")
     para(doc, "Identity Lifecycle Automation and Joiner-Mover-Leaver (JML) Governance for an SME MSP")
@@ -268,7 +268,7 @@ def build_dissertation_outline():
 
 def build_scope():
     doc = Document()
-    doc.add_heading("Project Scope — SCI700 Project 3", 0)
+    doc.add_heading("Project Scope — Project 3", 0)
     fields = [
         ("Student", f"{STUDENT} ({SID})"),
         ("Project", "Identity Lifecycle Automation and JML Governance for SME MSP"),
@@ -280,7 +280,7 @@ def build_scope():
     ]
     for k, v in fields:
         para(doc, f"{k}: {v}")
-    save_doc(doc, BASE / "Niaz_SCI700_Project3_Project_Scope.docx")
+    save_doc(doc, BASE / "Project3_Project_Scope.docx")
 
 
 def build_checklist():

@@ -1,7 +1,5 @@
-# SCI700 Project 3 — JML Identity Lifecycle Automation
+# JML Identity Lifecycle Automation
 
-**Student:** Md Shohrab Hossen Niaz (1211589)  
-**Course:** SCI700/701 Research / Industry Dissertation (UniSC Adelaide)  
 **Title:** Identity Lifecycle Automation and Joiner-Mover-Leaver (JML) Governance for an SME MSP  
 **Scenario:** Fictional MSP — Coastal Managed IT Pty Ltd (CMIT) — **lab-only**
 
@@ -54,7 +52,7 @@ Configure `00_Config.ps1` with your lab TenantId and domain before running. Neve
 
 ## Dissertation
 
-Open `06_Dissertation_Drafts/Niaz_SCI700_Project3_Dissertation_Draft.docx` for the full draft (Chapters 1–9 + references).
+Open `06_Dissertation_Drafts/Project3_Dissertation_Draft.docx` for the full draft (Chapters 1–9 + references).
 
 ## Ethics
 
@@ -65,4 +63,4 @@ Open `06_Dissertation_Drafts/Niaz_SCI700_Project3_Dissertation_Draft.docx` for t
 
 ## Licence / academic use
 
-Coursework artefact for SCI700/701. Not a production IAM product.
+Laboratory artefact. Not a production IAM product.

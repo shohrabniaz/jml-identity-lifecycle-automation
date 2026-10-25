@@ -2,7 +2,7 @@
 cd /d "%~dp0"
 title Project 3 JML Lab - FREE Entra ID only
 echo ============================================================
-echo  SCI700 Project 3 - Full Lab Runner (100%% FREE)
+echo Project 3 - Full Lab Runner (100%% FREE)
 echo  Tenant: niazkhanghostgmail.onmicrosoft.com
 echo ============================================================
 echo.

@@ -13,5 +13,5 @@ Write-Host "TenantId : $($org.Id)"
 Write-Host "Domain   : $domain"
 Write-Host "Name     : $($org.DisplayName)"
 Write-Host ""
-Write-Host "Suggested org display name: Niaz-SCI700-JML-Lab" -ForegroundColor Yellow
+Write-Host "Suggested org display name: JML-Lab" -ForegroundColor Yellow
 Write-Host "Next: update 00_Config.ps1, then run 01_Create_Lab_Groups.ps1" -ForegroundColor Green

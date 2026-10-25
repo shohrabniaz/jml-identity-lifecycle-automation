@@ -12,8 +12,8 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 BASE = Path(r"D:\Downloads\Coursework\SCI701_Research_Pathway\Project3_JML_Identity_Lifecycle")
 TODAY = date.today().isoformat()
 STUDENT = "Md Shohrab Hossen Niaz"
-SID = "1211589"
-HEADER = f"{STUDENT} | Student ID {SID} | SCI700/701 Project 3 | Individual | Fictional MSP + lab-only"
+SID = ""
+HEADER = f"{STUDENT} | Project 3 | Individual | Fictional MSP + lab-only"
 
 ACADEMIC_SOURCES = [
     {
@@ -21,7 +21,7 @@ ACADEMIC_SOURCES = [
             "Cameron, A., & Grewe, O. (2022). An overview of the digital identity lifecycle (v2). "
             "IDPro Body of Knowledge, 1(7). https://doi.org/10.55621/idpro.31"
         ),
-        "search": "UniSC Library: search 'Cameron Grewe digital identity lifecycle' or DOI 10.55621/idpro.31",
+        "search": "Search 'Cameron Grewe digital identity lifecycle' or DOI 10.55621/idpro.31",
         "relevance": (
             "Defines Joiner, Mover, and Leaver as the three principal workforce identity processes. "
             "Supports CMIT as-is analysis and the requirement for attestation, access removal, and "
@@ -34,7 +34,7 @@ ACADEMIC_SOURCES = [
             "Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). Design science in information "
             "systems research. MIS Quarterly, 28(1), 75-105."
         ),
-        "search": "UniSC Library: MIS Quarterly Hevner design science 2004",
+        "search": "MIS Quarterly Hevner design science 2004",
         "relevance": (
             "Provides the design-science research methodology used in this project: artefact (JML "
             "automation prototype), evaluation against utility goals, and contribution to practice "
@@ -47,7 +47,7 @@ ACADEMIC_SOURCES = [
             "Tuononen, H. (2023). Privileged access management model for a managed service provider "
             "(Master's thesis). JAMK University of Applied Sciences. http://theseus.fi/handle/10024/800216"
         ),
-        "search": "UniSC Library: search 'Tuononen privileged access management MSP' or Theseus 10024/800216",
+        "search": "Search 'Tuononen privileged access management MSP' or Theseus 10024/800216",
         "relevance": (
             "Examines PAM for MSPs administering multiple customer environments with highly privileged "
             "credentials. Supports the CMIT scenario where a single compromised MSP identity cascades "
@@ -90,11 +90,11 @@ def build_literature():
     add_para(doc, HEADER)
     add_para(doc, f"Document date: {TODAY} | Step 2 (B1) — annotated bibliography added")
 
-    add_title(doc, "1. Academic sources (UniSC library — search terms provided)", 1)
+    add_title(doc, "1. Academic sources (library — search terms provided)", 1)
     for i, src in enumerate(ACADEMIC_SOURCES, 1):
         add_title(doc, f"1.{i} Source {i}", 2)
         add_para(doc, src["apa"])
-        add_para(doc, f"UniSC search: {src['search']}", bold=True)
+        add_para(doc, f"Search: {src['search']}", bold=True)
         add_para(doc, f"Relevance to Project 3: {src['relevance']}")
         add_para(doc, f"Key theme: {src['quote_theme']}")
 
@@ -125,7 +125,7 @@ def build_literature():
     print(f"Wrote {path}")
 
     # Update source_list.txt
-    lines = ["ACADEMIC (UniSC library)\n"]
+    lines = ["ACADEMIC (library)\n"]
     for i, s in enumerate(ACADEMIC_SOURCES, 1):
         lines.append(f"{i}. {s['apa']}")
         lines.append(f"   Search: {s['search']}\n")

@@ -1,4 +1,4 @@
-# Build SCI700 Project 3 dissertation draft chapters (Phase D)
+# Build Project 3 dissertation draft chapters (Phase D)
 from __future__ import annotations
 
 from datetime import date
@@ -12,7 +12,7 @@ BASE = Path(r"D:\Downloads\Coursework\SCI701_Research_Pathway\Project3_JML_Ident
 OUT = BASE / "06_Dissertation_Drafts"
 TODAY = date.today().isoformat()
 STUDENT = "Md Shohrab Hossen Niaz"
-SID = "1211589"
+SID = ""
 DOMAIN = "niazkhanghostgmail.onmicrosoft.com"
 TENANT = "a76a68a8-6243-4b0e-b11c-98e815e91820"
 
@@ -46,9 +46,7 @@ def build_full_dissertation() -> Path:
     )
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     sub = doc.add_paragraph(
-        f"{STUDENT} | Student ID {SID}\n"
-        "SCI700/701 Research / Industry Dissertation\n"
-        f"University of the Sunshine Coast — Adelaide\n"
+        f"{STUDENT}\n"
         f"Draft date: {TODAY}\n"
         "Fictional organisation: Coastal Managed IT Pty Ltd (CMIT) — lab-only"
     )
@@ -342,7 +340,7 @@ def build_full_dissertation() -> Path:
     for r in refs:
         p(doc, r)
 
-    path = OUT / "Niaz_SCI700_Project3_Dissertation_Draft.docx"
+    path = OUT / "Project3_Dissertation_Draft.docx"
     doc.save(path)
     return path
 
@@ -390,7 +388,7 @@ def build_chapter_files() -> None:
         h(d, title, 0)
         p(d, f"{STUDENT} | {SID} | {TODAY}")
         p(d, body)
-        p(d, "Full narrative: Niaz_SCI700_Project3_Dissertation_Draft.docx")
+        p(d, "Full narrative: Project3_Dissertation_Draft.docx")
         d.save(OUT / name)
 
 
@@ -422,7 +420,7 @@ def main() -> None:
     p(d6, f"{STUDENT} | {SID} | Lab: {DOMAIN}")
     p(
         d6,
-        "See Niaz_SCI700_Project3_Dissertation_Draft.docx Chapter 6 for the integrated narrative. "
+        "See Project3_Dissertation_Draft.docx Chapter 6 for the integrated narrative. "
         "Evidence: 03_Prototype_Lab/evidence/; screenshots in 05_Evaluation/screenshots/.",
     )
     d6.save(OUT / "Ch06_Implementation_Draft.docx")

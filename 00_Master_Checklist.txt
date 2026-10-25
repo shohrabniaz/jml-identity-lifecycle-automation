@@ -1,5 +1,5 @@
 PROJECT 3 COMPLETION CHECKLIST — 2026-09-01
-Student: Md Shohrab Hossen Niaz (1211589)
+Student: Md Shohrab Hossen Niaz 
 Lab: niazkhanghostgmail.onmicrosoft.com | Tenant: a76a68a8-6243-4b0e-b11c-98e815e91820
 Cost model: FREE (Entra ID Free only)
 
