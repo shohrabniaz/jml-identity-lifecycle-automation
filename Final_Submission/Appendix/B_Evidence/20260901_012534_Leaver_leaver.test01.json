@@ -1,0 +1,17 @@
+﻿{
+    "RequestId":  "LEAVE-20260901012531",
+    "Action":  "Leaver",
+    "Immediate":  true,
+    "User":  "leaver.test01@niazkhanghostgmail.onmicrosoft.com",
+    "GroupsRemovedAttempted":  [
+                                   "SG-CMIT-Privileged-Admins (not member/error ignored)",
+                                   "SG-CMIT-ServiceDesk (not member/error ignored)",
+                                   "SG-CMIT-Engineers (not member/error ignored)",
+                                   "SG-ClientA-Support (not member/error ignored)",
+                                   "SG-ClientB-Support (not member/error ignored)",
+                                   "SG-CMIT-AllStaff (not member/error ignored)"
+                               ],
+    "AccountEnabled":  false,
+    "TimestampUtc":  "2026-08-31T15:55:34.4626163Z",
+    "Actor":  null
+}

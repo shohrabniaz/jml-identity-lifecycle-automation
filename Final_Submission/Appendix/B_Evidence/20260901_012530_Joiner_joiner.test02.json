@@ -1,0 +1,13 @@
+﻿{
+    "RequestId":  "JOIN-20260901012529",
+    "Action":  "Joiner",
+    "User":  "joiner.test02@niazkhanghostgmail.onmicrosoft.com",
+    "RolePack":  "Engineer",
+    "Groups":  [
+                   "SG-CMIT-AllStaff",
+                   "SG-CMIT-Engineers",
+                   "SG-ClientA-Support"
+               ],
+    "TimestampUtc":  "2026-08-31T15:55:30.3439930Z",
+    "Actor":  null
+}
